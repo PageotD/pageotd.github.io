@@ -20,6 +20,10 @@ with open("experience.json", "r") as fexpe:
     experience = json.load(fexpe)
     data.update({"experience": experience})
 
+with open("references.json", "r") as fref:
+    references = json.load(fref)
+    data.update({"references": references})
+
 # Set up Jinja environment
 env = Environment(loader=FileSystemLoader('templates'))
 template = env.get_template('index.j2')

@@ -630,11 +630,22 @@
 
           <ol class="timeline-list">
 
+            {% for element in references %}
             <li class="timeline-item">
+              {% if 'Article' in element['category'] %}
+              <span>{{ element['category'] }}</span>
               <p class="timeline-text">
-                Chen, G., Abraham, O., Pageot, D., Durand, O., Chekroun, M., & Tournat, V. (2024). Evaluation of nonlinear interface areas in a multiple scattering medium by Nonlinear Coda Wave Interferometry (NCWI): Experimental studies. <em>NDT & E International, 141</em>, 102992.
+                {{ element['author'] }} ({{ element['year'] }}). {{ element['title'] }}, <em>{{ element['journal'] }}</em>, <b>{{ element['volume'] }}</b>, {{ element['pages'] }}. <a href="https://doi.org/{{ element['doi'] }}">{{ element['doi'] }}</a>
               </p>
+              {% endif %}
+              {% if 'InProceedings' in element['category'] %}
+              <span>{{ element['category'] }}</span>
+              <p class="timeline-text">
+                {{ element['author'] }} ({{ element['year'] }}). {{ element['title'] }}, <em>{{ element['meeting'] }}</em>.
+              </p>
+              {% endif %}
             </li>
+            {% endfor %}
 
             <li class="timeline-item">
               <p class="timeline-text">
