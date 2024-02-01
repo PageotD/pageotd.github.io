@@ -1,14 +1,38 @@
 [
     {
-        "position": "Post-doctoral Researcher",
-        "society": "Nantes University, France",
-        "date": "Aug 2020 - Present",
+        "position": "Application Analyst",
+        "society": "Capgemini CIS, Nantes, France",
+        "date": "Sep 2021 - Present",
         "description": "Something to do"
     },
     {
         "position": "Post-doctoral Researcher",
-        "society": "IFSTTAR Nantes, France",
-        "date": "Jan. 2019 - Aug. 2020",
-        "description": "Something to do"
+        "society": "GeoEND, Gustave Eiffel University, Nantes, France",
+        "date": "Aug 2019 - Mar 2020",
+        "description": "&#x2022; animation of training sessions for GeoEND members: SEM2D (seismic modeling tool), Anaconda (Python), NeSSI package (Python)</br> &#x2022; continuation ANR HIWAI"
+    },
+    {
+        "position": "Post-doctoral Researcher",
+        "society": "GeoEND, IFSTTAR, Nantes, France",
+        "date": "Jun 2018 - May 2019",
+        "description": "&#x2022; development of numerical and experimental protocols for the validation of full waveform inversion integrating homogenization</br> &#x2022; integration of the radiation pattern of experimental sources (piezoelectric) in a numerical modeling code (SEM3D)"
+    },
+    {
+        "position": "Post-doctoral Researcher",
+        "society": "LPG, Nantes University, France",
+        "date": "Nov 2016 - May 2018",
+        "description": "&#x2022; Project PROSE (Seismic and Electrical Offshore Research Project)</br> &#x2022; RFI Pays de la Loire WEAMEC (http://www.ec-nantes.fr/version-francaise/l-ecole/weamec/)"
+    },
+    {
+        "position": "Post-doctoral Researcher",
+        "society": "GeoEND, IFSTTAR, Nantes, France",
+        "date": "Oct 2015 - Oct 2016",
+        "description": "&#x2022; auscultation and imaging of seawalls (numerical approach) </br> &#x2022; cross-validation of numerical and experimental methods</br> &#x2022; determination of the mechanical properties of heterogeneous media"
+    },
+    {
+        "position": "Post-doctoral Researcher",
+        "society": "LPG, Nantes University, France",
+        "date": "Dec 2013 - Oct 2015",
+        "description": "&#x2022; auscultation and imaging of seawalls (numerical approach) </br> &#x2022; cross-validation of numerical and experimental methods</br> &#x2022; determination of the mechanical properties of heterogeneous media"
     }
 ]
