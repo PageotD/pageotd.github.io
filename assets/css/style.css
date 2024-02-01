@@ -150,7 +150,7 @@
   box-sizing: border-box;
 }
 
-a { text-decoration: none; }
+a { text-decoration: none; color: hsl(200, 60%, 42%) }
 
 li { list-style: none; }
 

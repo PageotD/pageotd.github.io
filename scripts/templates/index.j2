@@ -625,33 +625,75 @@
               <ion-icon name="newspaper-outline"></ion-icon>
             </div>
 
-            <h3 class="h3"></h3>
+            <h3 class="h3">PhD Thesis</h3>
           </div>
 
           <ol class="timeline-list">
 
             {% for element in references %}
+            {% if 'PhdThesis' in element['category'] %}
             <li class="timeline-item">
-              {% if 'Article' in element['category'] %}
-              <span>{{ element['category'] }}</span>
-              <p class="timeline-text">
-                {{ element['author'] }} ({{ element['year'] }}). {{ element['title'] }}, <em>{{ element['journal'] }}</em>, <b>{{ element['volume'] }}</b>, {{ element['pages'] }}. <a href="https://doi.org/{{ element['doi'] }}">{{ element['doi'] }}</a>
+              <!-- <span>{{ element['category'] }}</span> -->
+              <p class="timeline-text" style="font-size:0.8em">
+                {{ element['author'] }} ({{ element['year'] }}). {{ element['title'] }}, <em>{{ element['school'] }}</em>. <a href="{{ element['link'] }} style="color:hsl(200, 60%, 40%) 0%">{{ element['link'] }}</a>
               </p>
-              {% endif %}
-              {% if 'InProceedings' in element['category'] %}
-              <span>{{ element['category'] }}</span>
-              <p class="timeline-text">
-                {{ element['author'] }} ({{ element['year'] }}). {{ element['title'] }}, <em>{{ element['meeting'] }}</em>.
-              </p>
-              {% endif %}
             </li>
+            {% endif %}
             {% endfor %}
 
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="newspaper-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Articles</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            {% for element in references %}
+            {% if 'Article' in element['category'] %}
             <li class="timeline-item">
-              <p class="timeline-text">
-              Pageot, D., Operto, S., Vallée, M., Brossier, R., & Virieux, J. (2013). A parametric analysis of two-dimensional elastic full waveform inversion of teleseismic data for lithospheric imaging. <em>Geophysical Journal International, 193(3)</em>, 1479-1505.
+              <!-- <span>{{ element['category'] }}</span> -->
+              <p class="timeline-text" style="font-size:0.8em">
+                {{ element['author'] }} ({{ element['year'] }}). {{ element['title'] }}, <em>{{ element['journal'] }}</em>, <b>{{ element['volume'] }}</b>, {{ element['pages'] }}. <a href="https://doi.org/{{ element['doi'] }} style="color:hsl(200, 60%, 40%) 0%">{{ element['doi'] }}</a>
               </p>
             </li>
+            {% endif %}
+            {% endfor %}
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="easel-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">In Proceedings</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            {% for element in references %}
+            {% if 'InProceedings' in element['category'] %}
+            <li class="timeline-item">
+              <!-- <span>{{ element['category'] }}</span> -->
+              <p class="timeline-text" style="font-size:0.8em">
+                {{ element['author'] }} ({{ element['year'] }}). {{ element['title'] }}, <em>{{ element['meeting'] }}</em>.
+              </p>
+            </li>
+            {% endif %}
+            {% endfor %}
 
           </ol>
 
