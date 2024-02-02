@@ -1,14 +1,32 @@
 [
     {
-        "school": "school2, Country",
-        "grade": "Master 2 in mastering",
-        "year": "2020",
-        "description": "Master Master"
+        "school": "IPI, France",
+        "grade": "DevOps Training",
+        "date": "2021",
+        "description": "&#x2022; Three month DevOps Consultant training"
     },
     {
-        "school": "school1, Country",
-        "grade": "Master 1 in mastering",
-        "year": "2010",
-        "description": "Master Master"
+        "school": "Nice-Sophia University, France",
+        "grade": "PhD in Earth Sciences - Geophysics",
+        "date": "2008 - 2012",
+        "description": "&#x2022; Lithospheric Imaging by full waveform inversion of teleseismic data. Supervisors: S. Operto (GeoAzur) and M. Vallée (IPG Paris).</br> &#x2022; Thesis defended on October 16, 2012"
+    },
+    {
+        "school": "Nantes University, France",
+        "grade": "Master 2 Research in Planetary Geosciences",
+        "date": "2006 - 2007",
+        "description": "&#x2022; Internship: Mass-radius relationship of massive exoplanets; supervisor: O. Grasset, LPG-University of Nantes"
+    },
+    {
+        "school": "Nantes University, France",
+        "grade": "Master 1 in Planetary Geosciences",
+        "date": "2005 - 2006",
+        "description": "&#x2022; Internship: Modeling of mantle convection; supervisor: G. Choblet, LPG-University of Nantes"
+    },
+    {
+        "school": "Nantes University, France",
+        "grade": "Bachelor's Degree in Earth and Universe Sciences",
+        "date": "2002 - 2005",
+        "description": ""
     }
 ]

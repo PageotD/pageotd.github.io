@@ -2,7 +2,7 @@
   
   {
     "category": "Article",
-    "author"    : "CHEN, Guangzhi, ABRAHAM, Odile, PAGEOT, Damien, Durand, Olivier, CHEKROUN, Mathieu, et TOURNAT, Vincent",
+    "author"    : "CHEN, Guangzhi, ABRAHAM, Odile, <b>PAGEOT, Damien</b>, Durand, Olivier, CHEKROUN, Mathieu, et TOURNAT, Vincent",
     "journal"   : "NDT & E International",
     "title"     : "Evaluation of nonlinear interface areas in a multiple scattering medium by Nonlinear Coda Wave Interferometry (NCWI): Experimental studies",
     "year"      : "2024",
@@ -14,7 +14,7 @@
 
   {
     "category": "Article",
-    "author"    : "CHEN, Guangzhi, ZHANG, Yuxiang, ABRAHAM, Odile, PAGEOT, Damien, CHEKROUN, Mathieu, et TOURNAT, Vincent",
+    "author"    : "CHEN, Guangzhi, ZHANG, Yuxiang, ABRAHAM, Odile, <b>PAGEOT, Damien</b>, CHEKROUN, Mathieu, et TOURNAT, Vincent",
     "journal"   : "Ultrasonics",
     "title"     : "Numerical parametric study of Nonlinear Coda Wave Interferometry sensitivity to microcrack size in a multiple scattering medium",
     "year"      : "2021",
@@ -26,7 +26,7 @@
 
   {
     "category": "Article",
-    "author"    : "PAGEOT, Damien, LE FEUVRE, Mathieu, LEPAROUX, Donatienne, CÔTE, Philippe, et CAPDEVILLE, Y",
+    "author"    : "<b>PAGEOT, Damien</b>, LE FEUVRE, Mathieu, LEPAROUX, Donatienne, CÔTE, Philippe, et CAPDEVILLE, Y",
     "journal"   : "Journal of Applied Geophysics",
     "title"     : "Assessment of physical properties of a sea dike using multichannel analysis of surface waves and 3D forward modeling",
     "year"      : "2020",
@@ -38,7 +38,7 @@
 
   {
     "category": "Article",
-    "author"    : "CHEN, Guangzhi, PAGEOT, Damien, ABRAHAM, Odile, ZHANG, Yuxiang, CHEKROUN, Mathieu, et TOURNAT, Vincent",
+    "author"    : "CHEN, Guangzhi, <b>PAGEOT, Damien</b>, ABRAHAM, Odile, ZHANG, Yuxiang, CHEKROUN, Mathieu, et TOURNAT, Vincent",
     "journal"   : "Ultrasonics",
     "title"     : "Nonlinear Coda Wave Interferometry: Sensitivity to wave-induced material property changes analyzed via numerical simulations in 2D",
     "year"      : "2019",
@@ -50,7 +50,7 @@
 
   {
     "category": "InProceedings",
-    "author"   : "CHEN, Guangzhi, ABRAHAM, Odile, PAGEOT, Damien, DURAND, Olivier, CHEKROUN, Mathieu, et TOURNAT, Vincent",
+    "author"   : "CHEN, Guangzhi, ABRAHAM, Odile, <b>PAGEOT, Damien</b>, DURAND, Olivier, CHEKROUN, Mathieu, et TOURNAT, Vincent",
     "title"    : "Monitoring Cracks with Nonlinear Coda Wave Interferometry (NCWI): Numerical and Experimental Results",
     "meeting"  : "Structural Health Monitoring 2019",
     "year"     : "2019"
@@ -58,7 +58,7 @@
 
   {
     "category": "InProceedings",
-    "author"       : "PAGEOT, Damien, LEPAROUX, Donatienne, et CAPDEVILLE, Yann",
+    "author"       : "<b>PAGEOT, Damien</b>, LEPAROUX, Donatienne, et CAPDEVILLE, Yann",
     "meeting"    : "1st Conference on Geophysics for Geothermal-Energy Utilization and Renewable-Energy Storage",
     "title"        : "Determination of the Radiation Pattern of a Piezoeletric Source Using Numerical Methods",
     "year"         : "2019",
@@ -67,7 +67,7 @@
 
   {
     "category": "InProceedings",
-    "author"       : "PAGEOT, Damien, LEPAROUX, Donatienne, CAPDEVILLE, Yann, et CÔTE, Philippe",
+    "author"       : "<b>PAGEOT, Damien</b>, LEPAROUX, Donatienne, CAPDEVILLE, Yann, et CÔTE, Philippe",
     "meeting"    : "3rd Applied Shallow Marine Geophysics Conference",
     "title"        : "Alternative Surface Wave Analysis Method for 2D Near-Surface maging Using Particle Swarm Optimization",
     "year"         : "2018",
@@ -76,7 +76,7 @@
 
   {
     "category": "InProceedings",
-    "author"       : "CHEN, Guangzhi, PAGEOT, Damien, LEGLAND, Jean-Baptiste, ABRAHAM, Odile, CHEKROUN, Mathieu, et TOURNAT, Vincent",
+    "author"       : "CHEN, Guangzhi, <b>PAGEOT, Damien</b>, LEGLAND, Jean-Baptiste, ABRAHAM, Odile, CHEKROUN, Mathieu, et TOURNAT, Vincent",
     "meeting"    : "AIP Conference Proceedings",
     "title"        : "Numerical modeling of nonlinear modulation of coda wave interferometry in a multiple scattering medium with the presence of a localized micro-cracked zone",
     "year"         : "2018"
@@ -84,7 +84,7 @@
 
   {
     "category": "Article",
-    "author"    : "CHEN, Guangzhi, PAGEOT, Damien, LEGLAND, Jean-Baptiste, ABRAHAM, Odile, CHEKROUN, Mathieu, et TOURNAT, Vincent",
+    "author"    : "CHEN, Guangzhi, <b>PAGEOT, Damien</b>, LEGLAND, Jean-Baptiste, ABRAHAM, Odile, CHEKROUN, Mathieu, et TOURNAT, Vincent",
     "journal"   : "Wave Motion",
     "title"     : "Numerical modeling of ultrasonic coda wave interferometry in a multiple scattering medium with a localized nonlinear defect",
     "year"      : "2017",
@@ -96,7 +96,7 @@
   
   {
     "category": "InProceedings",
-    "author"    : "PAGEOT, Damien, LE FEUVRE, Mathieu, LEPAROUX, Donatienne, CAPDEVILLE, Yann, et CÔTE, Philippe",
+    "author"    : "<b>PAGEOT, Damien</b>, LE FEUVRE, Mathieu, LEPAROUX, Donatienne, CAPDEVILLE, Yann, et CÔTE, Philippe",
     "title"     : "Assessment of Physical Properties of a Sea Dike Using Multichannel Analysis of Surface Waves and 3D Forward Modeling",
     "meeting" : "23rd European Meeting of Environmental and Engineering Geophysics",
     "year"      : "2017"
@@ -104,7 +104,7 @@
   
   {
     "category": "Article",
-    "author"    : "PAGEOT, Damien, LEPAROUX, Donatienne, LE FEUVRE, Mathieu, DURAND, Olivier, CÔTE, Philippe, et CAPDEVILLE, Yann",
+    "author"    : "<b>PAGEOT, Damien</b>, LEPAROUX, Donatienne, LE FEUVRE, Mathieu, DURAND, Olivier, CÔTE, Philippe, et CAPDEVILLE, Yann",
     "journal"   : "Geophysical journal International",
     "title"     : "Improving the seismic small-scale modelling by comparison with numerical methods",
     "year"      : "2017",
@@ -117,7 +117,7 @@
 
   {
     "category": "InProceedings",
-    "author"    : "PAGEOT, Damien, LE FEUVRE, Mathieu, LEPAROUX, Donatienne, CÔTE, Philippe, et CAPDEVILLE, Yann",
+    "author"    : "<b>PAGEOT, Damien</b>, LE FEUVRE, Mathieu, LEPAROUX, Donatienne, CÔTE, Philippe, et CAPDEVILLE, Yann",
     "title"     : "Importance of a 3D forward modeling tool for surface wave analysis methods",
     "meeting" : "EGU General Assembly Conference Abstracts",
     "year"      : "2016"
@@ -126,7 +126,7 @@
   
   {
     "category": "InProceedings",
-    "author"       : "FILIPPI, Céline, LEPAROUX, Donatienne, GRANDJEAN, Giles, BITRI, Adnan, PAGEOT, Damien, et CÔTE, Philippe",
+    "author"       : "FILIPPI, Céline, LEPAROUX, Donatienne, GRANDJEAN, Giles, BITRI, Adnan, <b>PAGEOT, Damien</b>, et CÔTE, Philippe",
     "meeting"    : "Near Surface Geoscience 2016-22nd European Meeting of Environmental and Engineering Geophysics",
     "title"        : "Numerical-experimental Study of Seismic Surface Waves Observables on Horizontal-vertical Components for Cavity Detection",
     "year"         : "2016",
@@ -135,7 +135,7 @@
 
   {
     "category": "InProceedings",
-    "author"       : "CHEN, Guanzhi, PAGEOT, Damien, LEGLAND, Jean-Baptiste, CHEKROUN, Mathieu, et ABRAHAM, Odile",
+    "author"       : "CHEN, Guanzhi, <b>PAGEOT, Damien</b>, LEGLAND, Jean-Baptiste, CHEKROUN, Mathieu, et ABRAHAM, Odile",
     "title"        : "Modélisation numérique de la propagation des ondes ultrasonores dans un milieu multi-diﬀusant en présence d'une non-linéarité localisée",
     "year"         : "2016",
     "meeting" : "CFA France"
@@ -143,7 +143,7 @@
 
   {
     "category": "InProceedings",
-    "author"    : "PAGEOT, Damien, LEPAROUX, Donatinne, CAPDEVILLE, Yann, et CÔTE, Philippe",
+    "author"    : "<b>PAGEOT, Damien</b>, LEPAROUX, Donatinne, CAPDEVILLE, Yann, et CÔTE, Philippe",
     "title"     : "Méthode alternative d'analyse des ondes de surface pour l'imagerie 2D du sous-sol",
     "meeting" : "AGAP",
     "year": "2015"
@@ -151,7 +151,7 @@
 
   {
     "category": "InProceedings",
-    "author"    : "PAGEOT, Damien, METAIS, Vincent, ABRAHAM, Odile, DURAND, Olivier, PLANTIER, Guy, et CAPDEVILLE, Yann",
+    "author"    : "<b>PAGEOT, Damien</b>, METAIS, Vincent, ABRAHAM, Odile, DURAND, Olivier, PLANTIER, Guy, et CAPDEVILLE, Yann",
     "meeting" : "International Symposium Non-Destructive Testing in Civil Engineering (NDTCE)",
     "title"     : "Numerical and experimental study of the influence of multiple scattering on surface waves dispersion curves",
     "year"      : "2015"
@@ -159,7 +159,7 @@
 
   {
     "category": "InProceedings",
-    "author"    : "PAGEOT, Damien, METAIS, Vincent, ABRAHAM, Odile, DURAND, Olivier, PLANTIER, Guy, et CAPDEVILLE, Yann",
+    "author"    : "<b>PAGEOT, Damien</b>, METAIS, Vincent, ABRAHAM, Odile, DURAND, Olivier, PLANTIER, Guy, et CAPDEVILLE, Yann",
     "meeting" : "International Symposium Non-Destructive Testing in Civil Engineering (NDTCE)",
     "title"     : "Numerical and experimental study of the influence of multiple scattering on surface waves dispersion curves",
     "year"      : "2015"
@@ -167,7 +167,7 @@
 
   {
     "category": "InProceedings",
-    "author"    : "PAGEOT, Damien, METAIS, Vincent, ABRAHAM, Odile, DURAND, Olivier, PLANTIER, Guy, et CAPDEVILLE, Yann",
+    "author"    : "<b>PAGEOT, Damien</b>, METAIS, Vincent, ABRAHAM, Odile, DURAND, Olivier, PLANTIER, Guy, et CAPDEVILLE, Yann",
     "title"     : "Numerical and experimental study of the influence of multiple scattering on surface waves dispersion curves",
     "year"      : "2015",
     "meeting" : "International Symposium Non-Destructive Testing in Civil Engineering (NDTCE)"
@@ -175,7 +175,7 @@
   
   {
     "category": "InProceedings",
-    "author"       : "PAGEOT, Damien, LEPAROUX, Donatienne, DURAND, Olivier, LE FEUVRE, Mathieu, CÔTE, Philippe, et CAPDEVILLE, Yann",
+    "author"       : "<b>PAGEOT, Damien</b>, LEPAROUX, Donatienne, DURAND, Olivier, LE FEUVRE, Mathieu, CÔTE, Philippe, et CAPDEVILLE, Yann",
     "meeting"    : "Near Surface Geoscience 2015-21st European Meeting of Environmental and Engineering Geophysics",
     "title"        : "Refined experimental studies for improving the reduced-scale physical modeling of seismic subsurface measurement",
     "year"         : "2015",
@@ -184,7 +184,7 @@
 
   {
     "category": "Article",
-    "author"    : "PAGEOT, Damien, OPERTO, Stéphane, VALLEE, Martin, BROSSIER, Romain, et VIRIEUX, Jean",
+    "author"    : "<b>PAGEOT, Damien</b>, OPERTO, Stéphane, VALLEE, Martin, BROSSIER, Romain, et VIRIEUX, Jean",
     "journal"   : "Geophysical journal International",
     "title"     : "A parametric analysis of two-dimensional elastic full waveform inversion of teleseismic data for lithospheric imaging",
     "year"      : "2013",
@@ -197,7 +197,7 @@
 
   {
     "category": "InProceedings",
-    "author"       : "PAGEOT, Damien, OPERTO, Stéphane, VALLEE, Martin, BROSSIER, Romain, et VIRIEUX, Jean",
+    "author"       : "<b>PAGEOT, Damien</b>, OPERTO, Stéphane, VALLEE, Martin, BROSSIER, Romain, et VIRIEUX, Jean",
     "meeting"    : "74th EAGE Conference and Exhibition incorporating EUROPEC 2012",
     "title"        : "Two-dimensional elastic full-waveform inversion of passive teleseismic data for lithospheric imaging",
     "year"         : "2012",
@@ -206,7 +206,7 @@
 
   {
     "category": "Article",
-    "author"    : "ASNAASHARI, Amir, BROSSIER, Romain, CASTELLANOS, Clara, DUPUY, Bastien, ETIENNE, Vincent, GHOLAMI, Yasser, HU, Guanghi, METIVIER, Ludovic, OPERTO, Stéphane, PAGEOT, Damien et al.",
+    "author"    : "ASNAASHARI, Amir, BROSSIER, Romain, CASTELLANOS, Clara, DUPUY, Bastien, ETIENNE, Vincent, GHOLAMI, Yasser, HU, Guanghi, METIVIER, Ludovic, OPERTO, Stéphane, <b>PAGEOT, Damien</b> et al.",
     "journal"   : "Numerical Analysis and Applications",
     "title"     : "Hierarchical approach of seismic full waveform inversion",
     "year"      : "2012",
@@ -218,7 +218,7 @@
 
   {
     "category": "PhdThesis",
-    "author"   : "PAGEOT, Damien",
+    "author"   : "<b>PAGEOT, Damien</b>",
     "school"   : "Nice-Sophia University, France",
     "title"    : "Imagerie de la lithosphère par inversion de formes d'ondes de données télésismiques",
     "year"     : "2012",
@@ -227,7 +227,7 @@
   
   {
     "category": "InProceedings",
-    "author"       : "BROSSIER, Romain, DUPUY, Bastien, VIRIEUX, Jean, ROQUES, Aurélien, HU, Guanghi, CASTELLANOS, Clara, ETIENNE, Vincent, GHOLAMI, Yasser, OPERTO, Stéphane, PAGEOT, Damien, et al.",
+    "author"       : "BROSSIER, Romain, DUPUY, Bastien, VIRIEUX, Jean, ROQUES, Aurélien, HU, Guanghi, CASTELLANOS, Clara, ETIENNE, Vincent, GHOLAMI, Yasser, OPERTO, Stéphane, <b>PAGEOT, Damien</b>, et al.",
     "meeting"    : "12th International Congress of the Brazilian Geophysical Society & EXPOGEF, Rio de Janeiro, Brazil, 15--18 August 2011",
     "title"        : "Hierarchical strategy for full waveform inversion in the frequency domain",
     "year"         : "2011",
@@ -236,7 +236,7 @@
 
   {
     "category": "InProceedings",
-    "author"       : "VIRIEUX, Jean, OPERTO, Stéphane, ASNAASHARI, Amir, BROSSIER, Romain, CASTELLANOS, Clara, ETIENNE, Vincent, GHOLAMI, Yasser, HU, Guanghi, PAGEOT, Damien, PRIEUX, Vincent, et al.",
+    "author"       : "VIRIEUX, Jean, OPERTO, Stéphane, ASNAASHARI, Amir, BROSSIER, Romain, CASTELLANOS, Clara, ETIENNE, Vincent, GHOLAMI, Yasser, HU, Guanghi, <b>PAGEOT, Damien</b>, PRIEUX, Vincent, et al.",
     "meeting"    : "SEG International Exposition and Annual Meeting",
     "title"        : "A multi-scale strategy for handling broadband seismic data",
     "year"         : "2011"
@@ -244,7 +244,7 @@
 
   {
     "category": "InProceedings",
-    "author"       : "PAGEOT, Damien, OPERTO, Stéphane, VALLEE, Martin, VIRIEUX, Jean, et BROSSIER, Romain",
+    "author"       : "<b>PAGEOT, Damien</b>, OPERTO, Stéphane, VALLEE, Martin, VIRIEUX, Jean, et BROSSIER, Romain",
     "meeting"    : "72nd EAGE Conference and Exhibition-Workshops and Fieldtrips",
     "title"        : "Lithospheric imaging from teleseismic data by frequency-domain elastic full-waveform tomography",
     "year"         : "2010",
@@ -253,7 +253,7 @@
 
   {
     "category": "InProceedings",
-    "author"    : "VIRIEUX, Jean, OPERTO, Stéphane, RIBODETTI, Alexandra, BEN HADJ ALI, Hafed, BROSSIER, Romain, ETIENNE, Vincent, GHOLAMI, Yaser, HU, Guanghi, JIA, Yun, PAGEOT, Damien, et al.",
+    "author"    : "VIRIEUX, Jean, OPERTO, Stéphane, RIBODETTI, Alexandra, BEN HADJ ALI, Hafed, BROSSIER, Romain, ETIENNE, Vincent, GHOLAMI, Yaser, HU, Guanghi, JIA, Yun, <b>PAGEOT, Damien</b>, et al.",
     "meeting" : "AGU Fall Meeting Abstracts",
     "title"     : "Efficient 2D and 3D multiparameters frequency-domain full waveform inversion",
     "year"      : "2010"
@@ -261,7 +261,7 @@
 
   {
     "category": "InProceedings",
-    "author"       : "VIRIEUX, Jean and OPERTO, Stéphane and BEN HADJ ALI, Hafed, BROSSIER, Romain, ETIENNE, Vincent, GHOLAMI, Yaser, Hu, Guanghi, JIA, Yun, PAGEOT, Damien, PRIEUX, Vincent, et al.",
+    "author"       : "VIRIEUX, Jean and OPERTO, Stéphane and BEN HADJ ALI, Hafed, BROSSIER, Romain, ETIENNE, Vincent, GHOLAMI, Yaser, Hu, Guanghi, JIA, Yun, <b>PAGEOT, Damien</b>, PRIEUX, Vincent, et al.",
     "meeting"    : "72nd EAGE Conference and Exhibition-Workshops and Fieldtrips",
     "title"        : "An overview of the SEISCOPE project on frequency-domain Full Waveform Inversion Multiparameter inversion and efficient 3D full-waveform inversion",
     "year"         : "2010",

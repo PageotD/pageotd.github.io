@@ -154,11 +154,7 @@
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Education</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Experience</button>
+            <button class="navbar-link" data-nav-link>Resume</button>
           </li>
 
           <li class="navbar-item">
@@ -483,10 +479,10 @@
         - #EDUCATION
       -->
 
-      <article class="education" data-page="education">
+      <article class="resume" data-page="resume">
 
           <header>
-              <h2 class="h2 article-title">Education</h2>
+              <h2 class="h2 article-title">Resume</h2>
           </header>
 
           <section class="timeline">
@@ -495,7 +491,7 @@
                   <div class="icon-box">
                       <ion-icon name="book-outline"></ion-icon>
                   </div>
-                  <h3 class="h3"></h3>
+                  <h3 class="h3">Education</h3>
               </div>
 
               <ol class="timeline-list">
@@ -503,8 +499,9 @@
                   {% for element in education %}
                   <li class="timeline-item">
 
-                      <h4 class="h4 timeline-item-title">{{ element['school'] }}</h4>
-                      <span>{{ element['school'] }}</span>
+                      <h4 class="h4 timeline-item-title">{{ element['grade'] }}</h4>
+                      <span style="color:white;font-weight:lighter"><em>{{ element['school'] }}</em></span>
+                      <span>{{ element['date'] }}</span>
                       <p class="timeline-text">{{ element['description'] }}</p>
 
                   </li>
@@ -512,21 +509,13 @@
 
           </section>
 
-      </article>
-      
-      <article class="experience" data-page="experience">
-        
-        <header>
-          <h2 class="h2 article-title">Experience</h2>
-        </header>
-
         <section class="timeline">
 
           <div class="title-wrapper">
             <div class="icon-box">
               <ion-icon name="briefcase-outline"></ion-icon>
             </div>
-            <h3 class="h3"></h3>
+            <h3 class="h3">Experience</h3>
           </div>
 
           <ol class="timeline-list">
@@ -635,7 +624,7 @@
             <li class="timeline-item">
               <!-- <span>{{ element['category'] }}</span> -->
               <p class="timeline-text" style="font-size:0.8em">
-                {{ element['author'] }} ({{ element['year'] }}). {{ element['title'] }}, <em>{{ element['school'] }}</em>. <a href="{{ element['link'] }} style="color:hsl(200, 60%, 40%) 0%">{{ element['link'] }}</a>
+                {{ element['author'] }} (<span style="color:hsl(100, 60%, 38%);display:inline">{{ element['year'] }}</span>). {{ element['title'] }}, <em>{{ element['school'] }}</em>. <a href="{{ element['link'] }} style="color:hsl(200, 60%, 40%) 0%">{{ element['link'] }}</a>
               </p>
             </li>
             {% endif %}
@@ -662,7 +651,7 @@
             <li class="timeline-item">
               <!-- <span>{{ element['category'] }}</span> -->
               <p class="timeline-text" style="font-size:0.8em">
-                {{ element['author'] }} ({{ element['year'] }}). {{ element['title'] }}, <em>{{ element['journal'] }}</em>, <b>{{ element['volume'] }}</b>, {{ element['pages'] }}. <a href="https://doi.org/{{ element['doi'] }} style="color:hsl(200, 60%, 40%) 0%">{{ element['doi'] }}</a>
+                {{ element['author'] }} (<span style="color:hsl(100, 60%, 38%);display:inline">{{ element['year'] }}</span>). {{ element['title'] }}, <em>{{ element['journal'] }}</em>, <b>{{ element['volume'] }}</b>, {{ element['pages'] }}. <a href="https://doi.org/{{ element['doi'] }} style="color:hsl(200, 60%, 40%) 0%">{{ element['doi'] }}</a>
               </p>
             </li>
             {% endif %}
@@ -689,7 +678,7 @@
             <li class="timeline-item">
               <!-- <span>{{ element['category'] }}</span> -->
               <p class="timeline-text" style="font-size:0.8em">
-                {{ element['author'] }} ({{ element['year'] }}). {{ element['title'] }}, <em>{{ element['meeting'] }}</em>.
+                {{ element['author'] }} (<span style="color:hsl(100, 60%, 38%);display:inline">{{ element['year'] }}</span>). {{ element['title'] }}, <em>{{ element['meeting'] }}</em>.
               </p>
             </li>
             {% endif %}
