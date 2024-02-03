@@ -24,6 +24,10 @@ with open("references.json", "r") as fref:
     references = json.load(fref)
     data.update({"references": references})
 
+with open("social.json", "r") as fsoc:
+    social = json.load(fsoc)
+    data.update({"social": social})
+
 # Set up Jinja environment
 env = Environment(loader=FileSystemLoader('templates'))
 template = env.get_template('index.j2')

@@ -1,0 +1,18 @@
+[
+    {
+        "icon": "fa-brands fa-linkedin",
+        "link": "https://www.linkedin.com/in/pageotd/?locale=en_US"
+    },
+    {
+        "icon": "fa-brands fa-researchgate",
+        "link": "https://www.researchgate.net/profile/Damien-Pageot"
+    },
+    {
+        "icon": "fa-brands fa-google-scholar",
+        "link": "https://scholar.google.com/citations?user=QLcCAtgAAAAJ&hl=fr"
+    },
+    {
+        "icon": "fa-brands fa-twitter",
+        "link": "https://twitter.com/NeuralNutWork"
+    }
+]

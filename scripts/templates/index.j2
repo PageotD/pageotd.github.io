@@ -100,31 +100,13 @@
         <div class="separator"></div>
 
         <ul class="social-list">
-
+          {% for element in social %}
           <li class="social-item">
-            <a href="#" class="social-link">
-              <i class="fa-brands fa-linkedin"></i>
+            <a href="{{ element['link'] }}" class="social-link">
+              <i class="{{ element['icon'] }}"></i>
             </a>
           </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <i class="fa-brands fa-researchgate"></i>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <i class="fa-brands fa-google-scholar"></i>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <i class="fa-brands fa-twitter"></i>
-            </a>
-          </li>
-
+          {% endfor %}
         </ul>
 
       </div>
@@ -790,25 +772,25 @@
 
                 <h3 class="project-title">PyBANN</h3>
 
-                <p class="project-category">Python Basic Articial Neural Network</p>
+                <p class="project-category">Python</p>
 
               </a>
             </li>
 
             <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+              <a href="https://gist.github.com/PageotD/c79a1e93da8fa917f807100478a6ebd2">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                  <img src="./assets/images/neighborhood.jpg" alt="neighborhood" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Orizon</h3>
+                <h3 class="project-title">Neighborhood</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">Python</p>
 
               </a>
             </li>
