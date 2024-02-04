@@ -12,6 +12,7 @@ data.update(add_data("education.json"))
 data.update(add_data("experience.json"))
 data.update(add_data("references.json"))
 data.update(add_data("interests.json"))
+data.update(add_data("certifications.json"))
 
 # Set up Jinja environment
 env = Environment(loader=FileSystemLoader('templates'))

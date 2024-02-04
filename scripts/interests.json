@@ -1,0 +1,12 @@
+[
+    {
+        "title": "DevOps",
+        "icon": "./assets/images/icon-devops.png",
+        "description": "Anything to do with DevOps/Platform engineering, with a particular interest in automation."
+    },
+    {
+        "title": "Geophysics-seismic",
+        "icon": "./assets/images/icon-seismic.png",
+        "description": "Seismic wave propagation modeling, seismic imaging, signal processing."
+    }
+]

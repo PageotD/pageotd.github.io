@@ -1,0 +1,26 @@
+[
+    {
+        "icon": "./assets/images/aws-knowledge-cloud-essentials.png",
+        "type": "Badge",
+        "title": "AWS Knowledge: Cloud Essentials",
+        "link": "https://www.credly.com/badges/d8facd35-5f92-4135-9f66-0f263aaf38a6/public_url"
+    },
+    {
+        "icon": "./assets/images/certified-safe-5-devops-practitioner.png",
+        "type": "Certification",
+        "title": "Certified SAFe® 5 DevOps Practitioner",
+        "link": "https://www.credly.com/badges/3cb9ba8c-b14b-4a94-8777-9b78b8906cea/public_url"
+    },
+    {
+        "icon": "./assets/images/redhat_logo.png",
+        "type": "Accreditation",
+        "title": "Red Hat Delivery Specialist - Red Hat Enterprise Linux",
+        "link": ""
+    },
+    {
+        "icon": "./assets/images/redhat_logo.png",
+        "type": "Accreditation",
+        "title": "Red Hat Delivery Specialist - Automation",
+        "link": ""
+    }
+]
