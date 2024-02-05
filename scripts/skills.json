@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Python 3",
+        "score": "70"
+    },
+    {
+        "name": "GNU/Linux Admin",
+        "score": "60"
+    },
+    {
+        "name": "Ansible",
+        "score": "60"
+    },
+    {
+        "name": "Docker",
+        "score": "60"
+    },
+    {
+        "name": "K8S",
+        "score": "40"
+    },
+    {
+        "name": "Geophysic-Seismic",
+        "score": "85"
+    }
+]
