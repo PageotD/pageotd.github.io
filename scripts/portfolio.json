@@ -1,0 +1,26 @@
+[
+    {
+        "category": "Python",
+        "project": "Julia set generator",
+        "link": "https://github.com/PageotD/juliaset/tree/main",
+        "logo": "./assets/images/juliaset.png"
+    },
+    {
+        "category": "Python",
+        "project": "pyBANN",
+        "link": "https://github.com/PageotD/pybann/tree/main",
+        "logo": "./assets/images/pybann.png"
+    },
+    {
+        "category": "Python",
+        "project": "Neighborhood algorithm",
+        "link": "https://gist.github.com/PageotD/c79a1e93da8fa917f807100478a6ebd2",
+        "logo": "./assets/images/neighborhood.png"
+    },
+    {
+        "category": "Python",
+        "project": "Eikonal solver",
+        "link": "https://gist.github.com/PageotD/0f677fe99ebd382927de918762968fa2",
+        "logo": "./assets/images/eikonal.png"
+    }
+]
