@@ -1,0 +1,17 @@
+<section class="timeline">
+  <div class="title-wrapper">
+    <div class="icon-box">
+      <ion-icon name="book-outline"></ion-icon>
+    </div>
+    <h3 class="h3">Education</h3>
+  </div>
+  <ol class="timeline-list">
+  {% for element in education %}
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">{{ element['grade'] }}</h4>
+      <span style="color:white;font-weight:lighter"><em>{{ element['school'] }}</em></span>
+      <span>{{ element['date'] }}</span>
+      <p class="timeline-text">{{ element['description'] }}</p>
+    </li>
+  {% endfor %}
+</section>

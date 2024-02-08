@@ -1,0 +1,53 @@
+<section class="timeline">
+  <div class="title-wrapper">
+    <div class="icon-box">
+      <ion-icon name="school-outline"></ion-icon>
+    </div>
+    <h3 class="h3">PhD Thesis</h3>
+  </div>
+  <ol class="timeline-list">
+  {% for element in references %}
+    {% if 'PhdThesis' in element['category'] %}
+      <li class="timeline-item">
+        <p class="timeline-text" style="font-size:0.8em">{{ element['author'] }} (<span style="color:hsl(100, 60%, 38%);display:inline">{{ element['year'] }}</span>). {{ element['title'] }}, <em>{{ element['school'] }}</em>. <a href="{{ element['link'] }} style="color:hsl(200, 60%, 40%) 0%">{{ element['link'] }}</a></p>
+      </li>
+    {% endif %}
+  {% endfor %}
+  </ol>
+</section>
+
+<section class="timeline">
+  <div class="title-wrapper">
+    <div class="icon-box">
+      <ion-icon name="newspaper-outline"></ion-icon>
+    </div>
+    <h3 class="h3">Articles</h3>
+  </div>
+  <ol class="timeline-list">
+  {% for element in references %}
+    {% if 'Article' in element['category'] %}
+      <li class="timeline-item">
+        <p class="timeline-text" style="font-size:0.8em">{{ element['author'] }} (<span style="color:hsl(100, 60%, 38%);display:inline">{{ element['year'] }}</span>). {{ element['title'] }}, <em>{{ element['journal'] }}</em>, <b>{{ element['volume'] }}</b>, {{ element['pages'] }}. <a href="https://doi.org/{{ element['doi'] }} style="color:hsl(200, 60%, 40%) 0%">{{ element['doi'] }}</a></p>
+      </li>
+    {% endif %}
+  {% endfor %}
+  </ol>
+</section>
+
+<section class="timeline">
+  <div class="title-wrapper">
+    <div class="icon-box">
+      <ion-icon name="easel-outline"></ion-icon>
+    </div>
+    <h3 class="h3">In Proceedings</h3>
+  </div>
+  <ol class="timeline-list">
+  {% for element in references %}
+    {% if 'InProceedings' in element['category'] %}
+      <li class="timeline-item">
+        <p class="timeline-text" style="font-size:0.8em">{{ element['author'] }} (<span style="color:hsl(100, 60%, 38%);display:inline">{{ element['year'] }}</span>). {{ element['title'] }}, <em>{{ element['meeting'] }}</em>.</p>
+      </li>
+    {% endif %}
+  {% endfor %}
+  </ol>
+</section>

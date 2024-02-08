@@ -1,0 +1,9 @@
+<ul class="social-list">
+  {% for element in social %}
+    <li class="social-item">
+      <a href="{{ element['link'] }}" class="social-link">
+        <i class="{{ element['icon'] }}"></i>
+      </a>
+    </li>
+  {% endfor %}
+</ul>

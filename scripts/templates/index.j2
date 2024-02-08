@@ -99,15 +99,8 @@
 
         <div class="separator"></div>
 
-        <ul class="social-list">
-          {% for element in social %}
-          <li class="social-item">
-            <a href="{{ element['link'] }}" class="social-link">
-              <i class="{{ element['icon'] }}"></i>
-            </a>
-          </li>
-          {% endfor %}
-        </ul>
+        {# Include Social networks list #}
+        {% include 'social.j2' %}
 
       </div>
 
@@ -151,10 +144,6 @@
 
       </nav>
 
-
-
-
-
       <!--
         - #ABOUT
       -->
@@ -180,85 +169,14 @@
         <!--
           - Interests
         -->
+        {# include interests template #}
+        {% include 'interests.j2' %}
 
-        <section class="service">
+        {# include certifications & accreditations template #}
+        {% include 'certifications.j2' %}
 
-          <h3 class="h3 service-title">Interests</h3>
-
-          <ul class="service-list">
-            {% for element in interests %}
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="{{ element['icon'] }}" alt="{{ element['title'] }} icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">{{ element['title'] }}</h4>
-
-                <p class="service-item-text">
-                  {{ element['description'] }}
-                </p>
-              </div>
-
-            </li>
-            {% endfor %}
-
-          </ul>
-
-        </section>
-
-        <section class="service">
-
-          <h3 class="h3 service-title">Certifications & Accreditations</h3>
-
-          <ul class="service-list">
-            {% for element in certifications %}
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="{{ element['icon'] }}" alt="{{ element['title'] }} icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">{{ element['type'] }}</h4>
-
-                <p class="service-item-text">
-                  <a href="{{ element['link'] }}">{{ element['title'] }}</a>
-                </p>
-              </div>
-
-            </li>
-            {% endfor %}
-
-          </ul>
-
-        </section>
-
-        <section class="skill">
-
-          <h3 class="h3 skills-title">My skills</h3>
-
-          <ul class="skills-list content-card">
-
-            {% for element in skills %}
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">{{ element['name'] }}</h5>
-                <!-- <data value="80">{{ element['score'] }}%</data> -->
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: {{ element['score'] }}%;"></div>
-              </div>
-
-            </li>
-            {% endfor %}
-
-          </ul>
-
-        </section>
+        {# include skills.j2 #}
+        {% include 'skills.j2' %}
 
       </article>
 
@@ -268,60 +186,15 @@
 
       <article class="resume" data-page="resume">
 
-          <header>
-              <h2 class="h2 article-title">Resume</h2>
-          </header>
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
 
-          <section class="timeline">
-          
-              <div class="title-wrapper">
-                  <div class="icon-box">
-                    <ion-icon name="book-outline"></ion-icon>
-                  </div>
-                  <h3 class="h3">Education</h3>
-              </div>
+        {# include educuation tempalte #}
+        {% include 'educaton.j2' %}
 
-              <ol class="timeline-list">
-
-                  {% for element in education %}
-                  <li class="timeline-item">
-
-                      <h4 class="h4 timeline-item-title">{{ element['grade'] }}</h4>
-                      <span style="color:white;font-weight:lighter"><em>{{ element['school'] }}</em></span>
-                      <span>{{ element['date'] }}</span>
-                      <p class="timeline-text">{{ element['description'] }}</p>
-
-                  </li>
-                  {% endfor %}
-
-          </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="briefcase-outline"></ion-icon>
-            </div>
-            <h3 class="h3">Experience</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            {% for element in experience %}
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">{{ element['position'] }}</h4>
-              <span style="color:white;font-weight:lighter"><em>{{ element['society'] }}</em></span>
-              <span>{{ element['date'] }}</span>
-
-              <p class="timeline-text" style="font-size:0.9em">{{ element['description'] }}</p>
-
-            </li>
-            {% endfor %}
-
-          </ol>
-
-        </section>
+        {# include experience tempalte #}
+        {% include 'experience.j2' %}
 
       </article>
 
@@ -332,86 +205,8 @@
           <h2 class="h2 article-title">Publications</h2>
         </header>
 
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="school-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">PhD Thesis</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            {% for element in references %}
-            {% if 'PhdThesis' in element['category'] %}
-            <li class="timeline-item">
-              <!-- <span>{{ element['category'] }}</span> -->
-              <p class="timeline-text" style="font-size:0.8em">
-                {{ element['author'] }} (<span style="color:hsl(100, 60%, 38%);display:inline">{{ element['year'] }}</span>). {{ element['title'] }}, <em>{{ element['school'] }}</em>. <a href="{{ element['link'] }} style="color:hsl(200, 60%, 40%) 0%">{{ element['link'] }}</a>
-              </p>
-            </li>
-            {% endif %}
-            {% endfor %}
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="newspaper-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Articles</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            {% for element in references %}
-            {% if 'Article' in element['category'] %}
-            <li class="timeline-item">
-              <!-- <span>{{ element['category'] }}</span> -->
-              <p class="timeline-text" style="font-size:0.8em">
-                {{ element['author'] }} (<span style="color:hsl(100, 60%, 38%);display:inline">{{ element['year'] }}</span>). {{ element['title'] }}, <em>{{ element['journal'] }}</em>, <b>{{ element['volume'] }}</b>, {{ element['pages'] }}. <a href="https://doi.org/{{ element['doi'] }} style="color:hsl(200, 60%, 40%) 0%">{{ element['doi'] }}</a>
-              </p>
-            </li>
-            {% endif %}
-            {% endfor %}
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="easel-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">In Proceedings</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            {% for element in references %}
-            {% if 'InProceedings' in element['category'] %}
-            <li class="timeline-item">
-              <!-- <span>{{ element['category'] }}</span> -->
-              <p class="timeline-text" style="font-size:0.8em">
-                {{ element['author'] }} (<span style="color:hsl(100, 60%, 38%);display:inline">{{ element['year'] }}</span>). {{ element['title'] }}, <em>{{ element['meeting'] }}</em>.
-              </p>
-            </li>
-            {% endif %}
-            {% endfor %}
-
-          </ol>
-
-        </section>
+        {# include publications tempalte #}
+        {% include 'publications.j2' %}
 
       </article>
 

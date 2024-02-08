@@ -1,0 +1,16 @@
+<section class="service">
+  <h3 class="h3 service-title">Certifications & Accreditations</h3>
+  <ul class="service-list">
+  {% for element in certifications %}
+    <li class="service-item">
+      <div class="service-icon-box">
+        <img src="{{ element['icon'] }}" alt="{{ element['title'] }} icon" width="40">
+      </div>
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">{{ element['type'] }}</h4>
+        <p class="service-item-text"><a href="{{ element['link'] }}">{{ element['title'] }}</a></p>
+      </div>
+    </li>
+  {% endfor %}
+  </ul>
+</section>
