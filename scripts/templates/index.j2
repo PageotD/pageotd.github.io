@@ -44,13 +44,13 @@
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Damien Pageot" width="80">
+          <img src="./assets/images/my-avatar.png" alt="{{ aboutme[0]['name'] }}" width="80">
         </figure>
 
         <div class="info-content">
-          <h1 class="name" title="Damien Pageot">Damien Pageot</h1>
+          <h1 class="name" title="{{ aboutme[0]['name'] }}">{{ aboutme[0]['name'] }}</h1>
 
-          <p class="title">Application Analyst</p>
+          <p class="title">{{ aboutme[0]['position'] }}</p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
@@ -76,7 +76,7 @@
             <div class="contact-info">
               <p class="contact-title">Email</p>
 
-              <a href="mailto:damien.pageot@gmail.com" class="contact-link">damien.pageot@gmail.com</a>
+              <a href="mailto:{{ aboutme[0]['email'] }}" class="contact-link">{{ aboutme[0]['description'] }}</a>
             </div>
 
           </li>
@@ -90,7 +90,7 @@
             <div class="contact-info">
               <p class="contact-title">Location</p>
 
-              <address>Saint-Nazaire, Pays de la Loire, France</address>
+              <address>{{ aboutme[0]['location'] }}</address>
             </div>
 
           </li>
