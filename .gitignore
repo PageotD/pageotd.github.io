@@ -3,4 +3,5 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-env-github-page/
+env-ghpages
+.vscode
