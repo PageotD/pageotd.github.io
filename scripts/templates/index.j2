@@ -267,7 +267,7 @@
           <ul class="project-list">
 
             {% for element in portfolio %}
-            <li class="project-item active" data-filter-item data-category="{{ element['category'] }}">
+            <li class="project-item active" data-filter-item data-category="{{ element['category'] | lower }}">
               <a href="{{ element['link'] }}">
 
                 <figure class="project-img">
