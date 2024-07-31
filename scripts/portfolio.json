@@ -1,5 +1,11 @@
 [
     {
+        "category": "Golang",
+        "project": "Taskido",
+        "link": "https://github.com/PageotD/taskido/tree/main",
+        "logo": "./assets/images/taskido-logo.png"
+    },
+    {
         "category": "Python",
         "project": "URL shortener",
         "link": "https://github.com/PageotD/url_shortner/tree/main",
