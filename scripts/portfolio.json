@@ -7,6 +7,12 @@
     },
     {
         "category": "Python",
+        "project": "RunMD",
+        "link": "https://github.com/PageotD/runmd/tree/main",
+        "logo": "./assets/images/python-default.png"
+    },
+    {
+        "category": "Python",
         "project": "URL shortener",
         "link": "https://github.com/PageotD/url_shortner/tree/main",
         "logo": "./assets/images/python-default.png"
